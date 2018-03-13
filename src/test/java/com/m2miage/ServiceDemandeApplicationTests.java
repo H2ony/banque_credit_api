@@ -1,4 +1,4 @@
-package com.m2miage.servicedemande;
+package com.m2miage;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

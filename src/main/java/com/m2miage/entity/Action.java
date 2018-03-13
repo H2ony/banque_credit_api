@@ -22,6 +22,10 @@ public class Action {
     public Action() {
     }
 
+     public Action(String nom) {
+        this.nom = nom;
+    }
+    
     public String getId() {
         return id;
     }
