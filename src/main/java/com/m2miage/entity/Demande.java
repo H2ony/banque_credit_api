@@ -49,6 +49,19 @@ public class Demande {
         this.duree = duree;
         this.etat = etat;
     }
+    
+    
+    public Demande(Demande d) {
+        this.id = d.id;
+        this.nom = d.nom;
+        this.prenom = d.prenom;
+        this.adresse = d.adresse;
+        this.datenaiss = d.datenaiss;
+        this.revenu = d.revenu;
+        this.credit = d.credit;
+        this.duree = d.duree;
+        this.etat = d.etat;
+    }
 
     public String getId() {
         return id;
